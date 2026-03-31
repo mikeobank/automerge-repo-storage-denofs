@@ -1,4 +1,8 @@
 {
+  "name": "@mikeobank/automerge-repo-storage-denofs",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./mod.ts",
   "tasks": {
     "dev": "deno run --watch main.ts",
     "test": "deno test --allow-read --allow-write"
