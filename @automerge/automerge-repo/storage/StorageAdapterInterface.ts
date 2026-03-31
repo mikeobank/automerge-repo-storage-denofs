@@ -1,4 +1,4 @@
-import { StorageKey, Chunk } from "./types.ts"
+import type { StorageKey, Chunk } from "./types.ts"
 
 /** A storage adapter represents some way of storing binary data for a {@link Repo}
  *

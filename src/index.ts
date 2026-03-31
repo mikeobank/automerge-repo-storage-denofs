@@ -3,10 +3,10 @@
  * A `StorageAdapter` which stores data in the local filesystem (Deno)
  */
 
-import {
+import type {
   Chunk,
   StorageAdapterInterface,
-  type StorageKey,
+  StorageKey,
 } from "@automerge/automerge-repo/slim";
 
 export class DenoFSStorageAdapter implements StorageAdapterInterface {
